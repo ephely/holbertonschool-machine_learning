@@ -4,6 +4,7 @@ that adds two matrices element-wise"""
 
 
 def add_matrices2D(mat1, mat2):
+    """def add_matrices2D"""
     new_matrix = []
     if len(mat1) == len(mat2):
         for row1, row2 in zip(mat1, mat2):
