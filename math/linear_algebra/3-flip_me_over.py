@@ -4,4 +4,5 @@ that returns the transpose of a 2D matrix, matrix"""
 
 
 def matrix_transpose(matrix):
+    """def matrix_transpose"""
     return [[row[i] for row in matrix] for i in range(len(matrix[0]))]
