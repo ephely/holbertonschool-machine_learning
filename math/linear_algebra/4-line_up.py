@@ -5,8 +5,8 @@ that adds two arrays element-wise"""
 
 def add_arrays(arr1, arr2):
     if len(arr1) == len(arr2):
-        new_array=[]
+        new_array = []
         for a, b in zip(arr1, arr2):
             new_array.append(a + b)
-        return new_array
+            return new_array
     return None
