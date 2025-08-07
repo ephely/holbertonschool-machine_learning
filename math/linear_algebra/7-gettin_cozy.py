@@ -7,7 +7,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
     """cat_matrices2D"""
     new_mat = []
     if axis == 0:
-        if all(len(row) != len(mat1[0]) for row in mat1 + mat2):
+        if any(len(row) != len(mat1[0]) for row in mat1 + mat2):
             return None
         new_mat = mat1 + mat2
         return new_mat
